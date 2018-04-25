@@ -1,0 +1,55 @@
+
+@import 'reset.css';
+
+@font-face {
+    font-family: "ma font haut";
+    src: url('ma font haut.otf');
+  }
+
+  @font-face {
+    font-family: "ma font bas";
+    src: url('ma font bas.otf');
+  }
+  
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.t-white {color:  #fff   ;}
+.t-pink  { color: #d41a47;}
+
+.t-polhaut {font-family: "ma font haut";}
+.t-polbas  {font-family: "ma font bas";}
+
+
+.t-haut {font-size: 5em;}
+
+.t-bas {font-size: 3em;}
+
+.t-block{display: inline-block;}
+
+.margin-d{
+    margin-left: 10px
+}
+
+.margin-g{
+    margin-right: 10px
+}
+
+.t-dessous {
+letter-spacing: 60px;
+margin-left : 50px;}
+
+.linewhite{border-bottom: 2px solid #fff;}
+
+
+.bg-pink {
+    background: #d41a47;
+    padding: 15px;
+}
+
+.element {
+  margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
